@@ -3,6 +3,11 @@ import styled from 'styled-components'
 
 export const SectionLetters = styled.p`
  font-size: 15px;
+
+ @media ${(props) => props.theme.breakpoints.sm} {
+     font-size: 8px;
+    
+  }
 `
 
 export const AboutSection = styled.div`
@@ -30,5 +35,15 @@ export const ImgCard = styled.div`
     background-repeat: no-repeat;
     background-position: center;
   
+    @media ${(props) => props.theme.breakpoints.sm} {
+      height: 130px;
+      width: 130px;  
+    
+  }
 
-  `
+  @media ${(props) => props.theme.breakpoints.esm} {
+      height: 90px;
+      width: 90px;  
+    
+  }
+`

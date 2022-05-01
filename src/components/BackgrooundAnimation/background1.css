@@ -2603,3 +2603,8 @@
 		border-color: #5f5;
    }
 }
+@media screen and (max-width: 450px) {
+	.container1 {
+	  display: none;
+	}
+}

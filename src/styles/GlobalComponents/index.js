@@ -22,6 +22,12 @@ export const Section = styled.section`
     width: calc(100vw - 32px);
     flex-direction: column;
   }
+
+  @media ${(props) => props.theme.breakpoints.esm} {
+    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
+    width: calc(100vw - 32px);
+    flex-direction: column;
+  }
 `
 
 export const SectionTitle = styled.h2`
@@ -72,6 +78,12 @@ export const SectionText = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.esm} {
+    font-size: 13px;
     line-height: 24px;
     padding-bottom: 16px;
   }

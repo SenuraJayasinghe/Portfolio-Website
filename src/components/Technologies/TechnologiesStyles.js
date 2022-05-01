@@ -50,6 +50,13 @@ export const List = styled.ul`
     flex-direction: column;
     margin: 32px 0;
   }
+
+  @media ${props => props.theme.breakpoints.esm}{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+   
+  }
 `
 
 export const ListContainer = styled.div`
@@ -83,6 +90,14 @@ export const ListTitle = styled.h4`
   line-height: 28px;
   letter-spacing: 0.02em;
   margin-bottom: 4px;
+}
+
+@media ${props => props.theme.breakpoints.esm}{
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  margin-bottom: 4px;
+  text-align: center;
 }
 `
 
@@ -122,6 +137,13 @@ export const ListItem = styled.li`
   flex-direction: row;
   align-items:center;
 }
+
+@media ${props => props.theme.breakpoints.esm}{
+  margin-bottom: 14px;
+  max-width: 175px;
+  flex-direction: row;
+  align-items:center;
+}
 `
 
 export const ListIcon = styled.img`
@@ -144,6 +166,11 @@ export const ListIcon = styled.img`
   
     
   }
+`
+export const Icon = styled.div`
+ display:flex;
+ justify-content:center;
+ margin-top:15px;
 `
 
 

@@ -5,6 +5,10 @@ export const Img = styled.img`
   height: 250px;
   object-fit: cover;
   overflow: hidden;
+
+  @media ${(props) => props.theme.breakpoints.esm} {
+  height:150px;
+}
 `
 
 export const GridContainer = styled.section`
@@ -30,6 +34,10 @@ export const BlogCard = styled.div`
   
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    margin-bottom: 5px;
+  }
+  @media ${(props) => props.theme.breakpoints.esm} {
+    width: calc(100vw - 102px);
     margin-bottom: 5px;
   }
 `;
@@ -81,6 +89,10 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
+
+    @media ${(props) => props.theme.breakpoints.esm} {
+      padding:.3rem;
+  
   
 }
 `;

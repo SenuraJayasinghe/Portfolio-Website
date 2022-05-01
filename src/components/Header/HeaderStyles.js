@@ -15,6 +15,16 @@ export const Container = styled.div`
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
+    
+  }
+
+  @media ${(props) => props.theme.breakpoints.esm} {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 60px);
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    
   }
 `;
 export const Div1 = styled.div`
@@ -34,6 +44,15 @@ export const Div2 = styled.div`
   justify-content: space-between;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
+    padding-left: 0px;
+    
+  }
+
+  @media ${(props) => props.theme.breakpoints.esm} {
+    grid-area: 2 / 1 / 3/ 4;
+    padding-left: 60px;
+   
+    
   }
 `;
 export const Div3 = styled.div`
@@ -65,6 +84,12 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 1.6rem;
+  }
+
+  @media ${(props) => props.theme.breakpoints.esm} {
+    padding: 0.5rem;
+    font-size: 1.3rem;
   }
 `;
 
