@@ -49,8 +49,17 @@ export const projects = [
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
     image: '/images/pic4.png',
     tags: ['MongoDB', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
+    source: 'https://github.com/SenuraJayasinghe/Daily-Planner',
     visit: 'https://dailyplannersenura.herokuapp.com/login',
+    id: 3,
+  },
+  {
+    title: 'Green Task Force',
+    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    image: '/images/pic7.png',
+    tags: ['JavaScript', 'PHP', 'Bootstrap'],
+    source: 'https://github.com/SenuraJayasinghe/Green-Task-force',
+    visit: '',
     id: 3,
   },
 ];
