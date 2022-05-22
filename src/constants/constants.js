@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Minesweeper',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "This version of Minesweeper was created using vanilla Javascript and follows a recursive algorithm",
       image: '/images/pic6.png',
       tags: ['HTML', 'JavaScript'],
     source: 'https://github.com/SenuraJayasinghe/Minesweeper',
@@ -9,8 +9,8 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Pacman',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'Pac-Man',
+    description: "This version of Pac-Man was created using vanilla Javascript and contains background sound effects.",
     image: '/images/pic5.png',
     tags: ['HTML', 'JavaScript'],
     source: 'https://github.com/SenuraJayasinghe/Pacman',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Covid19 tracker',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    description: "Created using Vue3, this tracker uses covid19api to displays the new/total cases and deaths globaly as well as per country",
       image: '/images/pic1.png',
       tags: ['Vue.js', 'Tailwind CSS','Covid19api'],
     source: 'https://github.com/SenuraJayasinghe/Covid-Tracker',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'IP Address Tracker',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "Created using Vue3, this app uses ip geolocation api to locate the searched IP address and show its location on the map",
     image: '/images/pic2.png',
     tags: ['Vue.js' , 'Leaflet.js', 'Tailwind CSS', 'Mapbox API'],
     source: 'https://github.com/SenuraJayasinghe/IP-Address-Tracker',
@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: 'Alan AI News App',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "Created using the Alan AI speech recognition software, allowing users to control the app using their voice",
     image: '/images/pic3.png',
     tags: ['React', 'Alan AI', 'Material UI'],
     source: 'https://github.com/SenuraJayasinghe/alan-ai-news-app',
@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     title: 'Daily Planner',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "Created using mern stack, lets users create accounts to enter their daily tasks",
     image: '/images/pic4.png',
     tags: ['MongoDB', 'Express', 'React', 'Node'],
     source: 'https://github.com/SenuraJayasinghe/Daily-Planner',
@@ -55,7 +55,7 @@ export const projects = [
   },
   {
     title: 'Green Task Force',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "This multi functional app lets users create accounts and pin their location on a map with details for garbage removal",
     image: '/images/pic7.png',
     tags: ['JavaScript', 'PHP', 'Bootstrap'],
     source: 'https://github.com/SenuraJayasinghe/Green-Task-force',
