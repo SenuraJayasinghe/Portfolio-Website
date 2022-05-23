@@ -18,7 +18,7 @@ const Timeline = () => {
        <br/>
 •	Lyceum International School Nugegoda, Cambridge Ordinary and Advanced levels.
 <SectionLetters>
- (Batch of 2016/2017)
+ (Batch of 2017)
  </SectionLetters>
 </SectionText>
        <ImgCard />

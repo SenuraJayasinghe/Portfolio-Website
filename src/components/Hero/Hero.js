@@ -11,7 +11,7 @@ const Hero = () => (
       My Personal Portfolio
     </SectionTitle>
     <SectionText>   
-    Hello my name is Senura Jayasinghe. I'm a recent software engineering graduate looking to succeed as a software engineer. I have a strong work ethic and I'm always eager to learn more  
+    Hello I'm Senura Jayasinghe, a fresh Software Engineering graduate seeking to acquire an opportunity in the IT industry to further sharpen and utilize my skills. I hold a strong incentive for work ethics and is driven by hunger to thrive for more
    </SectionText>
   </LeftSection>
 </Section>
