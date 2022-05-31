@@ -154,3 +154,20 @@ border-radius: 50px;
     
   }
 `
+// Resume button
+export const Resume = styled.a`
+color:#f2f5f7;
+font-size: 1.6rem;
+padding:0.95rem 1.2rem;
+background:#171717;
+border-radius: 5px;
+border: 2px solid rgba(52, 232, 158,0.2);
+transition: 0.5s;
+
+&:hover{
+  background:#f2f5f7;
+  transition: all 0.5s ease;
+  color: black;
+
+}
+`;

@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GiAmplitude } from 'react-icons/gi';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, Resume} from './HeaderStyles';
 
 const Header = () =>  (
  <Container>
@@ -43,6 +43,8 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/senura-jayasinghe-33998b1b5/" target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
+        <Resume
+         href="https://drive.google.com/file/d/1xUu-1J_lk5u-ZW6DRfMr9Lej_Veka4NT/view?usp=sharing" target="_blank">Resume</Resume>
       </Div3>
  </Container>
 );
