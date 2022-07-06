@@ -1,5 +1,5 @@
-
 import styled from 'styled-components'
+import img from '../../../public/images/profpic.jpg';
 
 export const SectionLetters = styled.p`
  font-size: 15px;
@@ -30,7 +30,7 @@ export const ImgCard = styled.div`
   width: 230px;
   border-radius: 504px;
   color: #fff;
-  background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQH9FSasxwOW_w/profile-displayphoto-shrink_400_400/0/1644654342582?e=1656547200&v=beta&t=v_AptMiOvjUY8EQ4w_oJP8TAO7tGlRcYWcHuiHIrr2A");
+  background-image: url(${img.src});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
