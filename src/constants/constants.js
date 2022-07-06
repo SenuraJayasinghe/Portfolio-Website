@@ -62,5 +62,14 @@ export const projects = [
     visit: '',
     id: 3,
   },
+  {
+    title: 'New York Times App',
+    description: "This App shows the latest news on various headlines such as travel, politics and science provided by the New York times",
+    image: '/images/pic8.png',
+    tags: ['Vue.js', 'Tailwind CSS', 'NYTimes Lastest News API'],
+    source: 'https://github.com/SenuraJayasinghe/nytimesapi-vue',
+    visit: 'https://nytimesapi-vue.vercel.app/',
+    id: 3,
+  },
 ];
 
